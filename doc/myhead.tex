@@ -1,0 +1,76 @@
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{crop}
+%\usepackage{natbib}
+\usepackage{float}
+\usepackage{booktabs}
+
+%\usepackage{algorithmic}
+%\usepackage{algorithm}
+% Sasha's macros: 
+
+\newcommand{\B}[1]{{\bf #1}}
+\newcommand{\R}[1]{{\rm #1}}
+\newcommand{\Sc}[1]{{\mathcal{#1}}}
+%\newtheorem{remark}{Remark}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{lemma}{Lemma}[section]
+
+\newenvironment{proof}[1][Proof]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newcommand{\FF}{{\mathcal{F}}}
+\newcommand{\rank}{{\rm rank}}
+\newcommand{\trace}{\mathsf{trace}}
+\newcommand{\vect}{\mathsf{vec}}
+\newcommand{\stackt}{\mathsf{stack}}
+\newcommand{\dictt}{\mathsf{dictionary}}
+\newcommand{\blkdt}{\mathsf{blockdiag}}
+
+\newcommand{\mbf}[1]{\mathbf{#1}}
+\newcommand{\mcl}[1]{\mathcal{#1}}
+\newcommand{\msf}[1]{\mathsf{#1}}
+\newcommand{\transp}[1]{{#1}^{\small T}}
+\newcommand{\argmax}{\operatornamewithlimits{arg max}}
+\newcommand{\argmin}{\operatornamewithlimits{arg min}}
+\newcommand{\ts}[1]{{\textstyle#1}}
+\newcommand{\ds}[1]{{\displaystyle#1}}
+\newcommand{\bq}{\begin{eqnarray}}
+\newcommand{\eq}{\end{eqnarray}}
+\newcommand{\todo}[1]{\begin{center}{\color{red} TODO:} \emph{#1}\end{center}}
+\renewcommand{\eqref}[1]{equation (\ref{eq:#1})}
+\newcommand{\Eqref}[1]{Equation (\ref{eq:#1})}
+\newcommand{\figref}[1]{figure \ref{fig:#1}}
+\newcommand{\Figref}[1]{Figure \ref{fig:#1}}
+\newcommand{\intd}[1]{\int\!\!\mathrm{d}#1}
+\newcommand{\intdl}[3]{\int_{#2}^{#3}\!\!\mathrm{d}#1}
+\newcommand{\mbfs}[1]{\mbox{\boldmath$#1$}}
+\newcommand{\sinc}{\mathrm{sinc}}
+\newcommand{\sgn}{\operatorname{{\mathrm sgn}}}
+\newcommand{\qed}{\nobreak \ifvmode \relax \else
+      \ifdim\lastskip<1.5em \hskip-\lastskip
+      \hskip1.5em plus0em minus0.5em \fi \nobreak
+      \vrule height0.75em width0.5em depth0.25em\fi}
+\renewcommand{\Pi}{\mbox{\LARGE$\pi$}}
+\newcommand{\WF}{\operatorname{{\mathrm WF}}}
+\newcommand{\diag}{\mathrm{diag}}
+% \newtheorem{theorem}{Theorem}[section]
+% \newtheorem{lemma}[theorem]{Lemma}
+% \newtheorem{proposition}[theorem]{Proposition}
+% \newtheorem{corollary}[theorem]{Corollary}
+% 
+% \newenvironment{proof}[1][Proof]{\begin{trivlist}
+% \item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% \newenvironment{example}[1][Example]{\begin{trivlist}
+% \item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+ \item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+
