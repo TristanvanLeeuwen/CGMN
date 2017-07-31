@@ -10,3 +10,5 @@ Contents:
 * errortest.m  - reproduces figure 1 in the paper
 * cgiter       - reproduces figure 2 in the paper
 * exp1         - reproduces figure 3 in the paper
+
+To run the code, compile sweepR_mex.c with 'mex sweepR_mex.c'.

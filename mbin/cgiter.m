@@ -43,7 +43,7 @@ for l = 1:length(omega)
         w = omega(l);
         
         % setup matrix and r.h.s.
-        A  = helm1d(k(j),n,1);
+        A  = HelmND(k(j)*ones(n,1),h,n,0);
         b  = zeros(n,1); b(floor(n/2)+1)=1;
 
         % preconditioner
